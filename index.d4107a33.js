@@ -1,0 +1,2 @@
+var e=Array.from(document.querySelectorAll("input[name]")),t=!0,r=!1,l=void 0;try{for(var a,n=e[Symbol.iterator]();!(t=(a=n.next()).done);t=!0){var o=a.value,i=o.getAttribute("name"),c='\n    <label class="field-label" for="'.concat(o.getAttribute("id"),'">\n      ').concat(i,"\n    </label>\n  ");o.setAttribute("placeholder",i.toUpperCase()),o.insertAdjacentHTML("beforebegin",c)}}catch(e){r=!0,l=e}finally{try{t||null==n.return||n.return()}finally{if(r)throw l}}
+//# sourceMappingURL=index.d4107a33.js.map
